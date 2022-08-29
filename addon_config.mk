@@ -24,7 +24,7 @@ vs:
 #  mkdir -p $OF_ROOT/addons/ofxNDI/libs/NDI/lib/arm-linux-gnueabihf
 #  sudo cp /usr/lib/arm-linux-gnueabihf/libndi* $OF_ROOT/addons/ofxNDI/libs/NDI/lib/arm-linux-gnueabihf/
 #  ``` 
-linuxarmv7l:
+linuxarmv6l:
 	ADDON_LIBS =
 	ADDON_LIBS += libs/NDI/lib/arm-linux-gnueabihf/libndi.so
 	ADDON_LIBS += libs/NDI/lib/arm-linux-gnueabihf/libndi.so.4
